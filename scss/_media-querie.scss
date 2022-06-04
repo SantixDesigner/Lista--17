@@ -183,10 +183,11 @@
 
         .unicaSectionIdeas {
             grid-template-areas:
+                "explicacion"
                 "nota1"
                 "nota2"
-                "nota3"
-                "explicacion";
+                "nota3";
+                
 
             .explicacionPagina {
                 width: 90%;

@@ -11,23 +11,23 @@ $colores9: #c7d1e1;
 
     .unicaSectionIdeas {
         display: grid;
-        grid-template-areas: "nota1"
+        grid-template-areas: 
+            "explicacion"
+            "nota1"
             "nota2"
-            "nota3"
-            "explicacion";
+            "nota3";
         grid-area: mainIdeas;
 
         .explicacionPagina {
             display: flex;
             flex-flow: column wrap;
             background-color: $colores7;
-
             width: 25%;
             margin: auto;
             margin-bottom: 100px;
             border: 0.2px solid black;
             grid-area: explicacion;
-
+            font-weight: bold;
             h2 {
                 background-color: $colores3;
                 width: 100%;
@@ -46,10 +46,16 @@ $colores9: #c7d1e1;
                 border: .2px solid black;
                 font-weight: bold;
                 grid-area: nota#{$i};
-                h2 {
+                padding-bottom: 5px;
+                    h2 {
                     background-color: $colores3;
                     border-bottom: 0.2px solid black;
-                    }
+                    text-align: center;
+                        }
+                    img{
+                    width: 95%;
+                    margin: auto;
+                        }
                 }
             }
         }

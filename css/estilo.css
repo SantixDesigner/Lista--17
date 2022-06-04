@@ -464,7 +464,7 @@ body {
   grid-template-areas: "header header header" "nav nav nav" "mainIdeas mainIdeas mainIdeas" "footer footer footer"; }
   .bodyIdeas .unicaSectionIdeas {
     display: grid;
-    grid-template-areas: "nota1" "nota2" "nota3" "explicacion";
+    grid-template-areas: "explicacion" "nota1" "nota2" "nota3";
     grid-area: mainIdeas; }
     .bodyIdeas .unicaSectionIdeas .explicacionPagina {
       display: flex;
@@ -474,7 +474,8 @@ body {
       margin: auto;
       margin-bottom: 100px;
       border: 0.2px solid black;
-      grid-area: explicacion; }
+      grid-area: explicacion;
+      font-weight: bold; }
       .bodyIdeas .unicaSectionIdeas .explicacionPagina h2 {
         background-color: #22f1ee;
         width: 100%;
@@ -489,10 +490,15 @@ body {
       background-color: #c7d1e1;
       border: .2px solid black;
       font-weight: bold;
-      grid-area: nota1; }
+      grid-area: nota1;
+      padding-bottom: 5px; }
       .bodyIdeas .unicaSectionIdeas .nota1 h2 {
         background-color: #22f1ee;
-        border-bottom: 0.2px solid black; }
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota1 img {
+        width: 95%;
+        margin: auto; }
     .bodyIdeas .unicaSectionIdeas .nota2 {
       display: flex;
       flex-flow: column wrap;
@@ -502,10 +508,15 @@ body {
       background-color: #c7d1e1;
       border: .2px solid black;
       font-weight: bold;
-      grid-area: nota2; }
+      grid-area: nota2;
+      padding-bottom: 5px; }
       .bodyIdeas .unicaSectionIdeas .nota2 h2 {
         background-color: #22f1ee;
-        border-bottom: 0.2px solid black; }
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota2 img {
+        width: 95%;
+        margin: auto; }
     .bodyIdeas .unicaSectionIdeas .nota3 {
       display: flex;
       flex-flow: column wrap;
@@ -515,10 +526,15 @@ body {
       background-color: #c7d1e1;
       border: .2px solid black;
       font-weight: bold;
-      grid-area: nota3; }
+      grid-area: nota3;
+      padding-bottom: 5px; }
       .bodyIdeas .unicaSectionIdeas .nota3 h2 {
         background-color: #22f1ee;
-        border-bottom: 0.2px solid black; }
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota3 img {
+        width: 95%;
+        margin: auto; }
 
 /* Contactos */
 .formulario {
@@ -689,7 +705,7 @@ body {
   .bodyIdeas {
     grid-template-areas: "header" "nav" "mainIdeas" "footer"; }
     .bodyIdeas .unicaSectionIdeas {
-      grid-template-areas: "nota1" "nota2" "nota3" "explicacion"; }
+      grid-template-areas: "explicacion" "nota1" "nota2" "nota3"; }
       .bodyIdeas .unicaSectionIdeas .explicacionPagina {
         width: 90%; }
       .bodyIdeas .unicaSectionIdeas .nota1 {
