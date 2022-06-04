@@ -1,0 +1,41 @@
+@mixin secciones($bg, $ga, $border, $max, $marg){
+    background-color: $bg;
+    grid-area: $ga;
+    border-radius: $border;
+    max-width: $max;
+    margin: $marg;
+}
+@mixin h2($fs, $wid, $tx_a,$text_dec,$mt,$hei){
+    font-size: $fs;
+    width: $wid;
+    text-align: $tx_a;
+    text-decoration: $text_dec;
+    margin-top: $mt;
+    height: $hei;
+}
+@mixin h2-secciones ($border, $margin, $fs, $br,$padd){
+    border:$border;
+    margin: $margin;
+    font-size: $fs;
+    border-radius: $br;
+    padding: $padd;
+}
+@mixin ul-class($flex,$flexdir,$mt,$border,$bg,$br){
+    display: $flex;
+    flex-direction: $flexdir;
+    margin-top: $mt;
+    border: $border;
+    background-color: $bg;
+    border-radius: $br;
+}
+@mixin listItem ($list_style,$ml,$fs,$fw){
+    list-style: $list_style;
+    margin-left: $ml;
+    font-size: $fs;
+    font-weight: $fw;
+}
+@mixin gradiantes ($bg, $wbc, $wtfc){
+    background: -webkit-linear-gradient($bg);
+    -webkit-background-clip: $wbc;
+    -webkit-text-fill-color: $wtfc;
+}

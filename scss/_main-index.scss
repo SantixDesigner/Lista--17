@@ -1,0 +1,149 @@
+$naranja1: #ff8c00;
+$naranja2: #e36b52;
+$amarillo1: #b9aa04;
+$naranja3: #844900;
+$colorextranio: rgb(0, 161, 54);
+
+$propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:2px, ancho:20%, ml:42.5%, alto:50px, ga:titulo, br:20px, overflow:hidden, fs:14px, bc:$naranja1);
+.mainInicial {
+    grid-area: main;
+
+    .sectionTotal {
+        grid-area: seccionCompleta;
+
+        .sectionTitle {
+            display: map-get($map: $propiedad, $key:display);
+            justify-content: map-get($map: $propiedad, $key: js);
+            padding-top: map-get($map: $propiedad, $key: pt);
+            border: map-get($map: $propiedad, $key: border);
+            border-spacing: map-get($map: $propiedad, $key: borderspa);
+            width: map-get($map: $propiedad, $key:ancho );
+            margin-left: map-get($map: $propiedad, $key: ml );
+            height: map-get($map: $propiedad, $key:alto );
+            grid-area: map-get($map: $propiedad, $key: ga );
+            border-radius: map-get($map: $propiedad, $key: br);
+            overflow: map-get($map: $propiedad, $key:overflow);
+            font-size: map-get($map: $propiedad, $key:fs );
+            background-color: map-get($map: $propiedad, $key: bc);
+            h2 {
+                @include h2(20px,100%,center,underline overline,2.5px,30px);
+            }
+        }
+        .miembrosDelCentro {
+            grid-area: miembros;
+            display: grid;
+            grid-template-areas: "lista--inferior lista--superior consejeros";
+            justify-content: space-around;
+            text-align: center;
+
+            .listaSuperior {
+                @include secciones($naranja2,lista--superior,20px,100%,auto);
+                
+                h2 {
+                    @include h2-secciones(2px solid black,3px,18px,20px,2px);
+                    @include gradiantes((45deg, rgb(0, 132, 255) 0%, rgb(255, 0, 200) 100%), text, transparent);
+                    .estrella {
+                        width: 15px;
+                    }
+                }
+
+                .ulPrimeraSeccion {
+                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$amarillo1,20px);
+                    .listItemsSeccion {
+                        @include listItem(none,5px,18px,bolder);
+                    }
+                }
+            }
+
+            .listaInferior {
+                @include secciones($naranja2,lista--inferior,20px,100%,auto);
+                h2 {
+                    @include h2-secciones(2px solid black,3px,18px,20px,2px);
+                    @include gradiantes((45deg, rgb(0, 132, 255) 0%, rgb(255, 0, 200) 100%), text, transparent);
+                }
+
+                .ulSegundaSeccion {
+                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$amarillo1,20px);
+                    .listItemsSeccion {
+                        @include listItem(none,5px,18px,bolder);
+                    }
+                    .tachada {
+                        text-decoration: line-through;
+                    }
+                }
+            }
+
+            .consejeros {
+                @include secciones($naranja2,consejeros,20px,100%,auto);
+                h2 {
+                    @include h2-secciones(2px solid black,3px,18px,20px,2px);
+                    @include gradiantes((45deg, rgb(0, 132, 255) 0%, rgb(255, 0, 200) 100%), text, transparent);
+                }
+                .consejerosLista {
+                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$amarillo1,20px);
+
+
+                    .listItemsSeccion {
+                        @include listItem(none,5px,18px,bolder);
+                    }
+                }
+            }
+        }
+
+        .flexRap {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+            .consignasDelCentro {
+                display: flex;
+                flex-flow: column nowrap;
+                border: 2px solid black;
+                background-color: $naranja1;
+                width: 43%;
+                justify-content: center;
+                grid-area: consignas;
+                .olPrimeraSeccion {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: $amarillo1;
+                    border-top: 1px solid black;
+                    .listItemsSeccionDos {
+                        list-style: none;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+.asideDelIndex {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px 0px 3px 0px;
+    grid-area: aside;
+    flex-wrap: wrap;
+
+    img {
+        width: 400px;
+        height: auto;
+        max-width: 90%;
+    }
+
+    iframe {
+        width: 400px;
+        height: 400px;
+        max-width: 90%;
+    }
+}
+
+.gridPadreIndex {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main main"
+        "aside aside aside"
+        "footer footer footer";
+}

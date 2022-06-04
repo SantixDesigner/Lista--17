@@ -1,0 +1,95 @@
+$naranja1: #ff8c00;
+$naranja2: #e36b52;
+$amarillo1: #b9aa04;
+$naranja3: #844900;
+$colortitulo: rgb(37, 37, 37);
+$colorA:#005ac0; 
+$border: rgb(43, 0, 0);
+
+/* Header */
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: #ff9f87;
+    height: 60px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    grid-area: header;
+    opacity: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+    .headerImagenesTitulos {
+        width: 100%;
+        display: flex;
+
+        .headerTitle {
+            display: flex;
+            width: 495px;
+            margin: 0.5em;
+            justify-content: center;
+            .headerTitulo {
+                color: $colortitulo;
+                font-family: 'Open Sans', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Quicksand', sans-serif;
+                font-family: 'Roboto', sans-serif;
+                font-family: 'Tangerine', cursive;;
+                font-size: 40px;
+                font-weight: bold;
+                @include gradiantes((45deg, #00DBDE 0%, #FC00FF 100%), text, transparent);
+            }
+        }
+
+        .imagenesHeader {
+            display: flex;
+            justify-content: space-evenly;
+            width: 30%;
+
+            .headerLogo {
+                width: 60px;
+                height: 60px;
+            }
+
+            .headerImagenTecnica {
+                width: 180px;
+                height: 60px;
+            }
+        }
+
+        .navSubHeader {
+            width: 75%;
+            margin-right: 10px;
+            .ulNav {
+                display: flex;
+                margin-block: 1em;
+                font-size: 17px;
+                font-weight: bold;
+                width: 100%;
+                justify-content: flex-end;
+                margin-right: 10px;
+                .listItemNav {
+                    list-style: none;
+                    .aEnLi {
+                        text-decoration: none;
+                        color: $colorA;
+                        margin-left: 20px;
+                        background-image: radial-gradient(currentColor, currentColor);
+                        background-position: 50% 100%;
+                        background-size: 0% 0%, 2.5px;
+                        transition: .3s;
+                        font-size: 100%;
+                        &:hover,
+                        &:focus {
+                            font-size: 20px;
+                            color: green;
+                            background-size: 100% 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

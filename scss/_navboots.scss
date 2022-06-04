@@ -1,0 +1,113 @@
+$colores:(navSubClass:#f0c1dd, div1nav: #f0c1dd);
+
+@each $red,$color in $colores{
+    .#{$red}{
+        background-color: $color;
+    }
+}
+.navSubClass{
+    display: flex;
+    display: none;
+    grid-area: nav;
+    .div1nav{
+        .tamanio-img{
+            width: 50px;
+        }
+        .centrar-nav{
+            font-size: 25px;
+            text-align: center;
+            margin-left: 100%;
+            li {
+                a{
+                    color:#0a5ea3;
+                    font-weight: bold;
+                    background-image: radial-gradient(currentColor, currentColor);
+                    background-position: 50% 100%;
+                    background-size: 0% 0%, 2.5px;
+                    transition:1s;
+                    &:hover{
+                        color:green;
+                        background-size: 100% 2px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media (min-width:0px) and (max-width:1200px){
+    .imagenesHeader{
+        a{
+            display: none;
+        }
+    }
+    .navSubClass{
+        div{
+            span{
+                a{
+                    img{
+                        width: 95%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .header{
+        .headerImagenesTitulos{
+            .navSubHeader{
+                display: none;
+            }
+        }
+
+    }
+
+}
+@media (min-width:1300px) and (max-width:1612px){
+    .header{
+        .headerImagenesTitulos{
+            .headerTitle{
+                .headerTitulo{
+                    font-size: 28px;
+                }
+            }
+        }
+        .navSubHeader{
+            .ulNav{
+                font-size: 12px;
+            }
+        }
+    }
+
+
+}
+@media (min-width:1200px) and (max-width:1299px){
+    .header{
+        .headerImagenesTitulos{
+            .imagenesHeader{
+                .headerImagenTecnica{
+                    display: none;
+                }
+                .headerLogo{
+                    display: none;
+                }
+            }
+            .navSubHeader{
+                justify-content: end;       
+                .ulNav{
+                    .listItemNav{
+                        .aEnLi{
+                            width: 300px;
+                        }
+                    }
+                   
+                }
+            }
+                .headerTitle{
+                    .headerTitulo{
+                        font-size: 28px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+$colores10: #2a8dc4;
+/* Contactos */
+
+
+$colores11: #bdb1a2;
+$colores12: #a77a46;
+$verde4: #379c5f;
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: $verde4;
+    width: 51%;
+    margin: auto;
+    text-align: center;
+    grid-area: formulario;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        width: 70%;
+        font-weight: bold;
+
+        input {
+            background-color: rgb(196, 29, 0);
+            transition: .1s;
+            border: none;
+            border-radius: 15px 0 0 15px;
+            padding-left: 5px;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(19, 19, 19);
+            &:hover,focus {
+                border-bottom: 2px solid rgb(100, 110, 252);
+            }
+        }
+        .envio{
+            margin-bottom: 5px;
+        }
+
+        textarea {
+            background-color: rgb(196, 29, 0);
+            transition: .1s;
+            border: none;
+            border-bottom: 2px solid rgb(100, 110, 252);
+            margin-bottom: 5px;
+            border-radius: 15px 0 0 0;
+            padding: 5px;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(19, 19, 19);
+            &:hover,focus {
+                border-bottom: 2px solid rgb(100, 110, 252);
+            }
+            
+        }
+    }
+}
+
+.mainContactos {
+    display: grid;
+    grid-area: mainContactos;
+    grid-template-areas:
+        "formulario";
+}
+
+.bodyContactos {
+    display: grid;
+    grid-template-areas: "header header header"
+        "nav nav nav"
+        "mainContactos mainContactos mainContactos"
+        "footer footer footer";
+}

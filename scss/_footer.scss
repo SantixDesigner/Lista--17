@@ -1,0 +1,43 @@
+$naranja5: #ff9f87;
+$colorextranio: rgb(0, 161, 54);
+.pieDePagina {
+    background-color: $naranja5;
+    grid-area: footer;
+    width: 100%;
+    font-weight: bold;
+        .contenedorPie{
+            display: flex;
+            .pieParrafo{
+                display: flex;
+                margin-left: 105px;
+                width: 100%;
+                justify-content: center;
+                grid-area: nombre;
+                
+            }
+                .pieRedes{
+                    display: flex;
+                    a{
+                        img{
+                            margin-left: 10px;
+                            width: 25px;
+                            height: 25px;
+                            border-radius: 30%;
+                        }
+                    }
+                }
+            }
+    .divFooter2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .divFooter3 {
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-width: 90%;
+        }
+    }
+}

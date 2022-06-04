@@ -1,0 +1,94 @@
+/* Lista */
+.bodyLista {
+    display: grid;
+    grid-template-areas: "header header header"
+        "nav nav nav"
+        "mainLista mainLista mainLista"
+        "footer footer footer";
+}
+
+$colores1: #b5f547;
+$colores2: #f6aa62;
+$colores3: #22f1ee;
+$colores4: #ad6903;
+$colores5: #00e5ff;
+$colores6: #c7d1e1;
+$colores8: #bdb1a2;
+
+.mainLista {
+    display: grid;
+    grid-template-areas:
+        "seccionAbajo"
+        "miembrosLista"
+        "ultimaSeccion";
+    grid-area: mainLista;
+
+    .sectionLista {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 39%;
+        border: 1px solid black;
+        grid-area: miembrosLista;
+        margin-bottom: 5px;
+
+        .tituloDeLaLista {
+            background-color: $colores1;
+            text-align: center;
+        }
+
+        .olSectionLista {
+            border-bottom: 0.1px solid black;
+
+            .miembrosLista {
+                list-style: none;
+                text-align: center;
+                background-color: $colores2;
+                font-weight: bold;
+            }
+
+            #miembroPresidente {
+                background-color: $colores3;
+                border-bottom: .5px solid black;
+                border-top: .5px solid black;
+            }
+        }
+    }
+
+    .sectionListaAbajo {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        text-align: center;
+        grid-area: seccionAbajo;
+        margin: auto;
+
+        p {
+            border-right: .2px solid black;
+            background-color: $colores4;
+            color: $colores8;
+        }
+
+        h2 {
+            border: .5px solid black;
+            background-color: $colores5;
+        }
+    }
+
+    .ultimaSeccionLista {
+        display: flex;
+        flex-direction: column;
+        background-color: $colores6;
+        width: 25%;
+        grid-area: ultimaSeccion;
+        margin: auto;
+
+        h2 {
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}

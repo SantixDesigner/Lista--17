@@ -1,0 +1,69 @@
+/* Quienes somos */
+
+
+.bodyGridQuienesSomos {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "mainQS mainQS mainQS"
+        "asideQS asideQS asideQS"
+        "footer footer footer";
+}
+$rosa: #af5a91;
+.mainQS {
+    grid-area: mainQS;
+
+    .sectionQS {
+        display: grid;
+        grid-template-areas: "seccion2 seccion1";
+        grid-area: sectionFull;
+        @for $value2 from 1 through 2{
+            .sectionDiv#{$value2}{
+                @if ($value2 == 1){
+                    background-color: $amarillo1;
+                    h2{
+                        background-color: $rosa;
+                        color: black;
+                        text-align: center;
+                    }
+                }
+                width: 50%;
+                margin: auto;
+                font-weight: bold;
+                grid-area: seccion#{$value2};
+                @if($value2 == 2){
+                    background-color: $rosa;
+                    h3 {
+                        background-color: $amarillo1;
+                        color: black;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+$rosa2: #f872c2;
+
+.asideDelQS {
+    background-color: $rosa2;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    grid-area: asideQS;
+
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 90%;
+        margin: auto;
+    }
+}
