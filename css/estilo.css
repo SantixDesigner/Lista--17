@@ -349,9 +349,10 @@ body {
   grid-area: mainProject; }
   .mainProjects .sectionProyectos {
     display: grid;
-    grid-template-areas: "ol1" "ol2";
+    grid-template-areas: "ol1" "ol2" "ol3" "ol4" "ol5" "ol6";
     justify-content: center; }
     .mainProjects .sectionProyectos .sectionProyectosOl1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       width: 80%;
       background-color: #048631;
       border: 2px solid #7cb5bc;
@@ -359,12 +360,28 @@ body {
       grid-area: ol1;
       font-size: large;
       font-weight: bold;
-      margin: auto; }
+      margin: auto;
+      margin-bottom: 50px; }
       .mainProjects .sectionProyectos .sectionProyectosOl1 .olItem {
-        list-style: none; }
+        list-style: none;
+        border-bottom: .1px solid black; }
+        .mainProjects .sectionProyectos .sectionProyectosOl1 .olItem a {
+          text-decoration: none;
+          color: black;
+          transition: .3s; }
+          .mainProjects .sectionProyectos .sectionProyectosOl1 .olItem a:hover {
+            background-position: 50% 100%;
+            background-size: 0% 0%, 2.5px;
+            font-size: 100%;
+            color: #046de6; }
       .mainProjects .sectionProyectos .sectionProyectosOl1 .h2Section {
         background-color: #7cb5bc; }
+      .mainProjects .sectionProyectos .sectionProyectosOl1 h3 {
+        background-color: #00ffc8; }
+      .mainProjects .sectionProyectos .sectionProyectosOl1 h4 {
+        background-color: #00ffc8; }
     .mainProjects .sectionProyectos .sectionProyectosOl2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       width: 80%;
       background-color: #048631;
       border: 2px solid #7cb5bc;
@@ -372,11 +389,142 @@ body {
       grid-area: ol2;
       font-size: large;
       font-weight: bold;
-      margin: auto; }
+      margin: auto;
+      margin-bottom: 50px; }
       .mainProjects .sectionProyectos .sectionProyectosOl2 .olItem {
-        list-style: none; }
+        list-style: none;
+        border-bottom: .1px solid black; }
+        .mainProjects .sectionProyectos .sectionProyectosOl2 .olItem a {
+          text-decoration: none;
+          color: black;
+          transition: .3s; }
+          .mainProjects .sectionProyectos .sectionProyectosOl2 .olItem a:hover {
+            background-position: 50% 100%;
+            background-size: 0% 0%, 2.5px;
+            font-size: 100%;
+            color: #046de6; }
       .mainProjects .sectionProyectos .sectionProyectosOl2 .h2Section {
         background-color: #7cb5bc; }
+      .mainProjects .sectionProyectos .sectionProyectosOl2 h3 {
+        background-color: #00ffc8; }
+      .mainProjects .sectionProyectos .sectionProyectosOl2 h4 {
+        background-color: #00ffc8; }
+    .mainProjects .sectionProyectos .sectionProyectosOl3 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 80%;
+      background-color: #048631;
+      border: 2px solid #7cb5bc;
+      max-width: 500px;
+      grid-area: ol3;
+      font-size: large;
+      font-weight: bold;
+      margin: auto;
+      margin-bottom: 50px; }
+      .mainProjects .sectionProyectos .sectionProyectosOl3 .olItem {
+        list-style: none;
+        border-bottom: .1px solid black; }
+        .mainProjects .sectionProyectos .sectionProyectosOl3 .olItem a {
+          text-decoration: none;
+          color: black;
+          transition: .3s; }
+          .mainProjects .sectionProyectos .sectionProyectosOl3 .olItem a:hover {
+            background-position: 50% 100%;
+            background-size: 0% 0%, 2.5px;
+            font-size: 100%;
+            color: #046de6; }
+      .mainProjects .sectionProyectos .sectionProyectosOl3 .h2Section {
+        background-color: #7cb5bc; }
+      .mainProjects .sectionProyectos .sectionProyectosOl3 h3 {
+        background-color: #00ffc8; }
+      .mainProjects .sectionProyectos .sectionProyectosOl3 h4 {
+        background-color: #00ffc8; }
+    .mainProjects .sectionProyectos .sectionProyectosOl4 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 80%;
+      background-color: #048631;
+      border: 2px solid #7cb5bc;
+      max-width: 500px;
+      grid-area: ol4;
+      font-size: large;
+      font-weight: bold;
+      margin: auto;
+      margin-bottom: 50px; }
+      .mainProjects .sectionProyectos .sectionProyectosOl4 .olItem {
+        list-style: none;
+        border-bottom: .1px solid black; }
+        .mainProjects .sectionProyectos .sectionProyectosOl4 .olItem a {
+          text-decoration: none;
+          color: black;
+          transition: .3s; }
+          .mainProjects .sectionProyectos .sectionProyectosOl4 .olItem a:hover {
+            background-position: 50% 100%;
+            background-size: 0% 0%, 2.5px;
+            font-size: 100%;
+            color: #046de6; }
+      .mainProjects .sectionProyectos .sectionProyectosOl4 .h2Section {
+        background-color: #7cb5bc; }
+      .mainProjects .sectionProyectos .sectionProyectosOl4 h3 {
+        background-color: #00ffc8; }
+      .mainProjects .sectionProyectos .sectionProyectosOl4 h4 {
+        background-color: #00ffc8; }
+    .mainProjects .sectionProyectos .sectionProyectosOl5 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 80%;
+      background-color: #048631;
+      border: 2px solid #7cb5bc;
+      max-width: 500px;
+      grid-area: ol5;
+      font-size: large;
+      font-weight: bold;
+      margin: auto;
+      margin-bottom: 50px; }
+      .mainProjects .sectionProyectos .sectionProyectosOl5 .olItem {
+        list-style: none;
+        border-bottom: .1px solid black; }
+        .mainProjects .sectionProyectos .sectionProyectosOl5 .olItem a {
+          text-decoration: none;
+          color: black;
+          transition: .3s; }
+          .mainProjects .sectionProyectos .sectionProyectosOl5 .olItem a:hover {
+            background-position: 50% 100%;
+            background-size: 0% 0%, 2.5px;
+            font-size: 100%;
+            color: #046de6; }
+      .mainProjects .sectionProyectos .sectionProyectosOl5 .h2Section {
+        background-color: #7cb5bc; }
+      .mainProjects .sectionProyectos .sectionProyectosOl5 h3 {
+        background-color: #00ffc8; }
+      .mainProjects .sectionProyectos .sectionProyectosOl5 h4 {
+        background-color: #00ffc8; }
+    .mainProjects .sectionProyectos .sectionProyectosOl6 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 80%;
+      background-color: #048631;
+      border: 2px solid #7cb5bc;
+      max-width: 500px;
+      grid-area: ol6;
+      font-size: large;
+      font-weight: bold;
+      margin: auto;
+      margin-bottom: 50px; }
+      .mainProjects .sectionProyectos .sectionProyectosOl6 .olItem {
+        list-style: none;
+        border-bottom: .1px solid black; }
+        .mainProjects .sectionProyectos .sectionProyectosOl6 .olItem a {
+          text-decoration: none;
+          color: black;
+          transition: .3s; }
+          .mainProjects .sectionProyectos .sectionProyectosOl6 .olItem a:hover {
+            background-position: 50% 100%;
+            background-size: 0% 0%, 2.5px;
+            font-size: 100%;
+            color: #046de6; }
+      .mainProjects .sectionProyectos .sectionProyectosOl6 .h2Section {
+        background-color: #7cb5bc; }
+      .mainProjects .sectionProyectos .sectionProyectosOl6 h3 {
+        background-color: #00ffc8; }
+      .mainProjects .sectionProyectos .sectionProyectosOl6 h4 {
+        background-color: #00ffc8; }
 
 .asideProyectos {
   grid-area: asideProjects;
@@ -806,15 +954,20 @@ body {
     width: 90%;
     margin: auto; }
     .mainProjects .sectionProyectos {
-      grid-template-areas: "ol1" "ol2";
+      grid-template-areas: "ol1" "ol2" "ol3" "ol4" "ol5" "ol6";
       margin: auto; }
       .mainProjects .sectionProyectos .sectionProyectosOl1 {
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px; }
+        width: 100%; }
       .mainProjects .sectionProyectos .sectionProyectosOl2 {
-        width: 100%;
-        margin-bottom: 10px; }
+        width: 100%; }
+      .mainProjects .sectionProyectos .sectionProyectosOl3 {
+        width: 100%; }
+      .mainProjects .sectionProyectos .sectionProyectosOl4 {
+        width: 100%; }
+      .mainProjects .sectionProyectos .sectionProyectosOl5 {
+        width: 100%; }
+      .mainProjects .sectionProyectos .sectionProyectosOl6 {
+        width: 100%; }
   .asideProyectos {
     width: 90%;
     justify-content: center;

@@ -1,7 +1,7 @@
 
 $verde3: #048631;
 $azulado1: #7cb5bc;
-
+$azulado2: #00ffc8;
 /* Proyectos */
 .mainProjects {
     grid-area: mainProject;
@@ -9,10 +9,15 @@ $azulado1: #7cb5bc;
         display: grid;
         grid-template-areas:
             "ol1"
-            "ol2";
+            "ol2"
+            "ol3"
+            "ol4"
+            "ol5"
+            "ol6";
         justify-content: center;
-        @for $value from 1 through 2 {
+        @for $value from 1 through 6 {
             .sectionProyectosOl#{$value}{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 width: 80%;
                 background-color: $verde3;
                 border: 2px solid $azulado1;
@@ -21,13 +26,31 @@ $azulado1: #7cb5bc;
                 font-size: large;
                 font-weight: bold;
                 margin: auto;
-    
+                margin-bottom: 50px;
                 .olItem {
                     list-style: none;
+                    border-bottom: .1px solid black;
+                    a{
+                        text-decoration: none;
+                        color: black;   
+                        transition: .3s;
+                        &:hover{
+                            background-position: 50% 100%;
+                            background-size: 0% 0%, 2.5px;
+                            font-size: 100%;
+                            color:rgb(4, 109, 230);
+                        }
+                    }
                 }
     
                 .h2Section {
                     background-color: $azulado1;
+                }
+                h3{
+                    background-color: $azulado2;
+                }
+                h4{
+                    background-color: $azulado2;
                 }
             }
         }

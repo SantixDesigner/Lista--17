@@ -401,17 +401,16 @@
         margin: auto;
         .sectionProyectos {
             grid-template-areas: "ol1"
-                "ol2";
+                "ol2"
+                "ol3"
+                "ol4"
+                "ol5"
+                "ol6";
             margin: auto;
-            .sectionProyectosOl1 {
-                width: 100%;
-                margin-top: 10px;
-                margin-bottom: 10px;
-    
-            }
-            .sectionProyectosOl2 {
-                width: 100%;
-                margin-bottom: 10px;
+            @for $value from 1 through 6{
+                .sectionProyectosOl#{$value} {
+                    width: 100%;
+                }
             }
         }
     }
