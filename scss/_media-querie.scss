@@ -470,12 +470,6 @@
             }
         }
     }
-
-    .instagramContactos {
-        width: 90%;
-        margin-right: auto;
-    }
-
     .bodyContactos {
         grid-template-areas: "header"
             "nav"
@@ -490,7 +484,7 @@
             div{
                 input{
                     width: 100%;
-                    font-size: 8px;
+                    font-size: 12px;
                 }
             }
         }

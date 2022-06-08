@@ -2,6 +2,9 @@
 $verde3: #048631;
 $azulado1: #7cb5bc;
 $azulado2: #00ffc8;
+$color1: #00ff80;
+$color2: #d9ff00;
+$color3: #ff8800;
 /* Proyectos */
 .mainProjects {
     grid-area: mainProject;
@@ -19,7 +22,7 @@ $azulado2: #00ffc8;
             .sectionProyectosOl#{$value}{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 width: 80%;
-                background-color: $verde3;
+                background-color: $color3;
                 border: 2px solid $azulado1;
                 max-width: 500px;
                 grid-area: ol#{$value};
@@ -44,13 +47,13 @@ $azulado2: #00ffc8;
                 }
     
                 .h2Section {
-                    background-color: $azulado1;
+                    background-color: $color1;
                 }
                 h3{
-                    background-color: $azulado2;
+                    background-color: $color2;
                 }
                 h4{
-                    background-color: $azulado2;
+                    background-color: $color2;
                 }
             }
         }

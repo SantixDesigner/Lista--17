@@ -354,7 +354,7 @@ body {
     .mainProjects .sectionProyectos .sectionProyectosOl1 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       width: 80%;
-      background-color: #048631;
+      background-color: #ff8800;
       border: 2px solid #7cb5bc;
       max-width: 500px;
       grid-area: ol1;
@@ -375,15 +375,15 @@ body {
             font-size: 100%;
             color: #046de6; }
       .mainProjects .sectionProyectos .sectionProyectosOl1 .h2Section {
-        background-color: #7cb5bc; }
+        background-color: #00ff80; }
       .mainProjects .sectionProyectos .sectionProyectosOl1 h3 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
       .mainProjects .sectionProyectos .sectionProyectosOl1 h4 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
     .mainProjects .sectionProyectos .sectionProyectosOl2 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       width: 80%;
-      background-color: #048631;
+      background-color: #ff8800;
       border: 2px solid #7cb5bc;
       max-width: 500px;
       grid-area: ol2;
@@ -404,15 +404,15 @@ body {
             font-size: 100%;
             color: #046de6; }
       .mainProjects .sectionProyectos .sectionProyectosOl2 .h2Section {
-        background-color: #7cb5bc; }
+        background-color: #00ff80; }
       .mainProjects .sectionProyectos .sectionProyectosOl2 h3 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
       .mainProjects .sectionProyectos .sectionProyectosOl2 h4 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
     .mainProjects .sectionProyectos .sectionProyectosOl3 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       width: 80%;
-      background-color: #048631;
+      background-color: #ff8800;
       border: 2px solid #7cb5bc;
       max-width: 500px;
       grid-area: ol3;
@@ -433,15 +433,15 @@ body {
             font-size: 100%;
             color: #046de6; }
       .mainProjects .sectionProyectos .sectionProyectosOl3 .h2Section {
-        background-color: #7cb5bc; }
+        background-color: #00ff80; }
       .mainProjects .sectionProyectos .sectionProyectosOl3 h3 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
       .mainProjects .sectionProyectos .sectionProyectosOl3 h4 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
     .mainProjects .sectionProyectos .sectionProyectosOl4 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       width: 80%;
-      background-color: #048631;
+      background-color: #ff8800;
       border: 2px solid #7cb5bc;
       max-width: 500px;
       grid-area: ol4;
@@ -462,15 +462,15 @@ body {
             font-size: 100%;
             color: #046de6; }
       .mainProjects .sectionProyectos .sectionProyectosOl4 .h2Section {
-        background-color: #7cb5bc; }
+        background-color: #00ff80; }
       .mainProjects .sectionProyectos .sectionProyectosOl4 h3 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
       .mainProjects .sectionProyectos .sectionProyectosOl4 h4 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
     .mainProjects .sectionProyectos .sectionProyectosOl5 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       width: 80%;
-      background-color: #048631;
+      background-color: #ff8800;
       border: 2px solid #7cb5bc;
       max-width: 500px;
       grid-area: ol5;
@@ -491,15 +491,15 @@ body {
             font-size: 100%;
             color: #046de6; }
       .mainProjects .sectionProyectos .sectionProyectosOl5 .h2Section {
-        background-color: #7cb5bc; }
+        background-color: #00ff80; }
       .mainProjects .sectionProyectos .sectionProyectosOl5 h3 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
       .mainProjects .sectionProyectos .sectionProyectosOl5 h4 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
     .mainProjects .sectionProyectos .sectionProyectosOl6 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       width: 80%;
-      background-color: #048631;
+      background-color: #ff8800;
       border: 2px solid #7cb5bc;
       max-width: 500px;
       grid-area: ol6;
@@ -520,11 +520,11 @@ body {
             font-size: 100%;
             color: #046de6; }
       .mainProjects .sectionProyectos .sectionProyectosOl6 .h2Section {
-        background-color: #7cb5bc; }
+        background-color: #00ff80; }
       .mainProjects .sectionProyectos .sectionProyectosOl6 h3 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
       .mainProjects .sectionProyectos .sectionProyectosOl6 h4 {
-        background-color: #00ffc8; }
+        background-color: #d9ff00; }
 
 .asideProyectos {
   grid-area: asideProjects;
@@ -998,16 +998,13 @@ body {
     .formulario form div {
       width: 100%;
       font-size: 13px; }
-  .instagramContactos {
-    width: 90%;
-    margin-right: auto; }
   .bodyContactos {
     grid-template-areas: "header" "nav" "mainContactos" "footer"; } }
 
 @media (max-width: 375px) {
   .formulario form div input {
     width: 100%;
-    font-size: 8px; } }
+    font-size: 12px; } }
 
 @media (min-width: 0) and (max-width: 1200px) {
   .gridPadreIndex {
