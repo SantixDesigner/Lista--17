@@ -47,15 +47,17 @@ $colores9: #c7d1e1;
                 font-weight: bold;
                 grid-area: nota#{$i};
                 padding-bottom: 5px;
+                
                     h2 {
                     background-color: $colores3;
                     border-bottom: 0.2px solid black;
                     text-align: center;
-                        }
+                    }
                     img{
                     width: 95%;
                     margin: auto;
-                        }
+                    margin-bottom: 10px;
+                    }
                 }
             }
         }

@@ -646,7 +646,8 @@ body {
         text-align: center; }
       .bodyIdeas .unicaSectionIdeas .nota1 img {
         width: 95%;
-        margin: auto; }
+        margin: auto;
+        margin-bottom: 10px; }
     .bodyIdeas .unicaSectionIdeas .nota2 {
       display: flex;
       flex-flow: column wrap;
@@ -664,7 +665,8 @@ body {
         text-align: center; }
       .bodyIdeas .unicaSectionIdeas .nota2 img {
         width: 95%;
-        margin: auto; }
+        margin: auto;
+        margin-bottom: 10px; }
     .bodyIdeas .unicaSectionIdeas .nota3 {
       display: flex;
       flex-flow: column wrap;
@@ -682,7 +684,8 @@ body {
         text-align: center; }
       .bodyIdeas .unicaSectionIdeas .nota3 img {
         width: 95%;
-        margin: auto; }
+        margin: auto;
+        margin-bottom: 10px; }
 
 /* Contactos */
 .formulario {
