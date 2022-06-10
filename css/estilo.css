@@ -629,6 +629,37 @@ body {
         width: 100%;
         border-bottom: .3px solid black;
         text-align: center; }
+    .bodyIdeas .unicaSectionIdeas .ultranota {
+      display: flex;
+      flex-flow: row wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota1;
+      padding-bottom: 5px; }
+      .bodyIdeas .unicaSectionIdeas .ultranota .toggle-menu {
+        display: flex; }
+      .bodyIdeas .unicaSectionIdeas .ultranota .nota1 {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+        background-color: #c7d1e1;
+        border: .2px solid black;
+        font-weight: bold;
+        grid-area: nota1;
+        padding-bottom: 5px; }
+        .bodyIdeas .unicaSectionIdeas .ultranota .nota1 h2 {
+          background-color: #22f1ee;
+          border-bottom: 0.2px solid black;
+          text-align: center;
+          display: inline; }
+        .bodyIdeas .unicaSectionIdeas .ultranota .nota1 img {
+          width: 95%;
+          margin: auto;
+          margin-bottom: 10px; }
     .bodyIdeas .unicaSectionIdeas .nota1 {
       display: flex;
       flex-flow: column wrap;
@@ -648,6 +679,37 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+    .bodyIdeas .unicaSectionIdeas .ultranota {
+      display: flex;
+      flex-flow: row wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota2;
+      padding-bottom: 5px; }
+      .bodyIdeas .unicaSectionIdeas .ultranota .toggle-menu {
+        display: flex; }
+      .bodyIdeas .unicaSectionIdeas .ultranota .nota2 {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+        background-color: #c7d1e1;
+        border: .2px solid black;
+        font-weight: bold;
+        grid-area: nota2;
+        padding-bottom: 5px; }
+        .bodyIdeas .unicaSectionIdeas .ultranota .nota2 h2 {
+          background-color: #22f1ee;
+          border-bottom: 0.2px solid black;
+          text-align: center;
+          display: inline; }
+        .bodyIdeas .unicaSectionIdeas .ultranota .nota2 img {
+          width: 95%;
+          margin: auto;
+          margin-bottom: 10px; }
     .bodyIdeas .unicaSectionIdeas .nota2 {
       display: flex;
       flex-flow: column wrap;
@@ -667,6 +729,37 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+    .bodyIdeas .unicaSectionIdeas .ultranota {
+      display: flex;
+      flex-flow: row wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota3;
+      padding-bottom: 5px; }
+      .bodyIdeas .unicaSectionIdeas .ultranota .toggle-menu {
+        display: flex; }
+      .bodyIdeas .unicaSectionIdeas .ultranota .nota3 {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+        background-color: #c7d1e1;
+        border: .2px solid black;
+        font-weight: bold;
+        grid-area: nota3;
+        padding-bottom: 5px; }
+        .bodyIdeas .unicaSectionIdeas .ultranota .nota3 h2 {
+          background-color: #22f1ee;
+          border-bottom: 0.2px solid black;
+          text-align: center;
+          display: inline; }
+        .bodyIdeas .unicaSectionIdeas .ultranota .nota3 img {
+          width: 95%;
+          margin: auto;
+          margin-bottom: 10px; }
     .bodyIdeas .unicaSectionIdeas .nota3 {
       display: flex;
       flex-flow: column wrap;
@@ -686,6 +779,42 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+
+.main-menu {
+  list-style: none;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(-100%);
+  transition: transform 0.3s; }
+
+.main-menu--show {
+  transform: translateY(0); }
+
+@media (min-width: 768px) {
+  .main-menu {
+    flex-direction: row;
+    transform: translateY(0); } }
+
+.toggle-menu {
+  width: 4rem;
+  cursor: pointer;
+  z-index: 1; }
+
+@media (min-width: 768px) {
+  .toggle-menu {
+    display: none; } }
+
+.main-menu__item {
+  margin: 2rem 0; }
+
+.main-menu__link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2rem; }
 
 /* Contactos */
 .formulario {
