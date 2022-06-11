@@ -640,26 +640,23 @@ body {
       font-weight: bold;
       grid-area: nota1;
       padding-bottom: 5px; }
-      .bodyIdeas .unicaSectionIdeas .ultranota .toggle-menu {
-        display: flex; }
-      .bodyIdeas .unicaSectionIdeas .ultranota .nota1 {
-        width: 100%;
+      .bodyIdeas .unicaSectionIdeas .ultranota h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .ultranota img {
+        width: 95%;
         margin: auto;
-        margin-bottom: 100px;
-        background-color: #c7d1e1;
-        border: .2px solid black;
-        font-weight: bold;
-        grid-area: nota1;
-        padding-bottom: 5px; }
-        .bodyIdeas .unicaSectionIdeas .ultranota .nota1 h2 {
-          background-color: #22f1ee;
-          border-bottom: 0.2px solid black;
-          text-align: center;
-          display: inline; }
-        .bodyIdeas .unicaSectionIdeas .ultranota .nota1 img {
-          width: 95%;
-          margin: auto;
-          margin-bottom: 10px; }
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .ultranota p {
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .ultranota:hover {
+        height: auto; }
+        .bodyIdeas .unicaSectionIdeas .ultranota:hover img {
+          display: block; }
+        .bodyIdeas .unicaSectionIdeas .ultranota:hover p {
+          display: block; }
     .bodyIdeas .unicaSectionIdeas .nota1 {
       display: flex;
       flex-flow: column wrap;
@@ -690,26 +687,23 @@ body {
       font-weight: bold;
       grid-area: nota2;
       padding-bottom: 5px; }
-      .bodyIdeas .unicaSectionIdeas .ultranota .toggle-menu {
-        display: flex; }
-      .bodyIdeas .unicaSectionIdeas .ultranota .nota2 {
-        width: 100%;
+      .bodyIdeas .unicaSectionIdeas .ultranota h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .ultranota img {
+        width: 95%;
         margin: auto;
-        margin-bottom: 100px;
-        background-color: #c7d1e1;
-        border: .2px solid black;
-        font-weight: bold;
-        grid-area: nota2;
-        padding-bottom: 5px; }
-        .bodyIdeas .unicaSectionIdeas .ultranota .nota2 h2 {
-          background-color: #22f1ee;
-          border-bottom: 0.2px solid black;
-          text-align: center;
-          display: inline; }
-        .bodyIdeas .unicaSectionIdeas .ultranota .nota2 img {
-          width: 95%;
-          margin: auto;
-          margin-bottom: 10px; }
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .ultranota p {
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .ultranota:hover {
+        height: auto; }
+        .bodyIdeas .unicaSectionIdeas .ultranota:hover img {
+          display: block; }
+        .bodyIdeas .unicaSectionIdeas .ultranota:hover p {
+          display: block; }
     .bodyIdeas .unicaSectionIdeas .nota2 {
       display: flex;
       flex-flow: column wrap;
@@ -740,26 +734,23 @@ body {
       font-weight: bold;
       grid-area: nota3;
       padding-bottom: 5px; }
-      .bodyIdeas .unicaSectionIdeas .ultranota .toggle-menu {
-        display: flex; }
-      .bodyIdeas .unicaSectionIdeas .ultranota .nota3 {
-        width: 100%;
+      .bodyIdeas .unicaSectionIdeas .ultranota h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .ultranota img {
+        width: 95%;
         margin: auto;
-        margin-bottom: 100px;
-        background-color: #c7d1e1;
-        border: .2px solid black;
-        font-weight: bold;
-        grid-area: nota3;
-        padding-bottom: 5px; }
-        .bodyIdeas .unicaSectionIdeas .ultranota .nota3 h2 {
-          background-color: #22f1ee;
-          border-bottom: 0.2px solid black;
-          text-align: center;
-          display: inline; }
-        .bodyIdeas .unicaSectionIdeas .ultranota .nota3 img {
-          width: 95%;
-          margin: auto;
-          margin-bottom: 10px; }
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .ultranota p {
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .ultranota:hover {
+        height: auto; }
+        .bodyIdeas .unicaSectionIdeas .ultranota:hover img {
+          display: block; }
+        .bodyIdeas .unicaSectionIdeas .ultranota:hover p {
+          display: block; }
     .bodyIdeas .unicaSectionIdeas .nota3 {
       display: flex;
       flex-flow: column wrap;

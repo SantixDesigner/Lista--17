@@ -46,29 +46,28 @@ $colores9: #c7d1e1;
                 border: .2px solid black;
                 font-weight: bold;
                 grid-area: nota#{$i};
-                padding-bottom: 5px;    
-                .toggle-menu{
-                    display: flex;
-                }
-                .nota#{$i}{
-                    width: 100%;
+                padding-bottom: 5px;
+                    h2 {
+                    background-color: $colores3;
+                    border-bottom: 0.2px solid black;
+                    text-align: center;
+                    }
+                    img{
+                    width: 95%;
                     margin: auto;
-                    margin-bottom: 100px;
-                    background-color: $colores9;
-                    border: .2px solid black;
-                    font-weight: bold;
-                    grid-area: nota#{$i};
-                    padding-bottom: 5px;
-                        h2 {
-                        background-color: $colores3;
-                        border-bottom: 0.2px solid black;
-                        text-align: center;
-                        display: inline;
-                        }
+                    margin-bottom: 10px;
+                    display: none;
+                    }
+                    p{
+                        display: none;
+                    }
+                    &:hover{
+                        height: auto;
                         img{
-                        width: 95%;
-                        margin: auto;
-                        margin-bottom: 10px;
+                            display: block;
+                        }
+                        p{
+                            display: block;
                         }
                     }
                 }
