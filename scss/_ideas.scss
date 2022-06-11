@@ -1,6 +1,8 @@
 $colores7: #f6aa62;
 $colores9: #c7d1e1;
-
+&:hover{
+    z-index: 1;
+}
 /* Ideas nuevas */
 .bodyIdeas {
     display: grid;
