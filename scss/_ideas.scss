@@ -1,8 +1,6 @@
 $colores7: #f6aa62;
 $colores9: #c7d1e1;
-&:hover{
-    z-index: 1;
-}
+
 /* Ideas nuevas */
 .bodyIdeas {
     display: grid;
@@ -49,6 +47,7 @@ $colores9: #c7d1e1;
                 font-weight: bold;
                 grid-area: nota#{$i};
                 padding-bottom: 5px;
+                z-index: 0;
                     h2 {
                     background-color: $colores3;
                     border-bottom: 0.2px solid black;
@@ -65,6 +64,7 @@ $colores9: #c7d1e1;
                     }
                     &:hover{
                         height: auto;
+
                         img{
                             display: block;
                         }
