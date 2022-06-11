@@ -82,7 +82,7 @@ body {
   opacity: 80%;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  z-index: 2000; }
+  z-index: 1000; }
   .header .headerImagenesTitulos {
     width: 100%;
     display: flex; }
