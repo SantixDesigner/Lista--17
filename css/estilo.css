@@ -649,16 +649,7 @@ body {
       .bodyIdeas .unicaSectionIdeas .nota1 img {
         width: 95%;
         margin: auto;
-        margin-bottom: 10px;
-        display: none; }
-      .bodyIdeas .unicaSectionIdeas .nota1 p {
-        display: none; }
-      .bodyIdeas .unicaSectionIdeas .nota1:hover {
-        height: auto; }
-        .bodyIdeas .unicaSectionIdeas .nota1:hover img {
-          display: block; }
-        .bodyIdeas .unicaSectionIdeas .nota1:hover p {
-          display: block; }
+        margin-bottom: 10px; }
     .bodyIdeas .unicaSectionIdeas .nota2 {
       display: flex;
       flex-flow: column wrap;
@@ -678,16 +669,7 @@ body {
       .bodyIdeas .unicaSectionIdeas .nota2 img {
         width: 95%;
         margin: auto;
-        margin-bottom: 10px;
-        display: none; }
-      .bodyIdeas .unicaSectionIdeas .nota2 p {
-        display: none; }
-      .bodyIdeas .unicaSectionIdeas .nota2:hover {
-        height: auto; }
-        .bodyIdeas .unicaSectionIdeas .nota2:hover img {
-          display: block; }
-        .bodyIdeas .unicaSectionIdeas .nota2:hover p {
-          display: block; }
+        margin-bottom: 10px; }
     .bodyIdeas .unicaSectionIdeas .nota3 {
       display: flex;
       flex-flow: column wrap;
@@ -707,16 +689,7 @@ body {
       .bodyIdeas .unicaSectionIdeas .nota3 img {
         width: 95%;
         margin: auto;
-        margin-bottom: 10px;
-        display: none; }
-      .bodyIdeas .unicaSectionIdeas .nota3 p {
-        display: none; }
-      .bodyIdeas .unicaSectionIdeas .nota3:hover {
-        height: auto; }
-        .bodyIdeas .unicaSectionIdeas .nota3:hover img {
-          display: block; }
-        .bodyIdeas .unicaSectionIdeas .nota3:hover p {
-          display: block; }
+        margin-bottom: 10px; }
 
 /* Contactos */
 .formulario {
