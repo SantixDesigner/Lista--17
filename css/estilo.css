@@ -647,7 +647,39 @@ body {
       .bodyIdeas .unicaSectionIdeas .nota1 img {
         width: 95%;
         margin: auto;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota1 p {
+        display: none; }
+    .bodyIdeas .unicaSectionIdeas .nota2 {
+      display: flex;
+      flex-flow: column wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota2;
+      padding-bottom: 5px;
+      height: 43.39px; }
+      .bodyIdeas .unicaSectionIdeas .nota2 h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota2 img {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota2 p {
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota2:hover {
+        height: calc(50vw + 300px); }
+        .bodyIdeas .unicaSectionIdeas .nota2:hover img {
+          display: block; }
+        .bodyIdeas .unicaSectionIdeas .nota2:hover p {
+          display: block; }
     .bodyIdeas .unicaSectionIdeas .nota2 {
       display: flex;
       flex-flow: column wrap;
@@ -666,7 +698,39 @@ body {
       .bodyIdeas .unicaSectionIdeas .nota2 img {
         width: 95%;
         margin: auto;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota2 p {
+        display: none; }
+    .bodyIdeas .unicaSectionIdeas .nota2 {
+      display: flex;
+      flex-flow: column wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota2;
+      padding-bottom: 5px;
+      height: 43.39px; }
+      .bodyIdeas .unicaSectionIdeas .nota2 h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota2 img {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota2 p {
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota2:hover {
+        height: calc(50vw + 300px); }
+        .bodyIdeas .unicaSectionIdeas .nota2:hover img {
+          display: block; }
+        .bodyIdeas .unicaSectionIdeas .nota2:hover p {
+          display: block; }
     .bodyIdeas .unicaSectionIdeas .nota3 {
       display: flex;
       flex-flow: column wrap;
@@ -685,7 +749,39 @@ body {
       .bodyIdeas .unicaSectionIdeas .nota3 img {
         width: 95%;
         margin: auto;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota3 p {
+        display: none; }
+    .bodyIdeas .unicaSectionIdeas .nota2 {
+      display: flex;
+      flex-flow: column wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota2;
+      padding-bottom: 5px;
+      height: 43.39px; }
+      .bodyIdeas .unicaSectionIdeas .nota2 h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota2 img {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px;
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota2 p {
+        display: none; }
+      .bodyIdeas .unicaSectionIdeas .nota2:hover {
+        height: calc(50vw + 300px); }
+        .bodyIdeas .unicaSectionIdeas .nota2:hover img {
+          display: block; }
+        .bodyIdeas .unicaSectionIdeas .nota2:hover p {
+          display: block; }
 
 /* Contactos */
 .formulario {
