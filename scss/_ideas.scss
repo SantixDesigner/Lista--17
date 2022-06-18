@@ -15,7 +15,10 @@ $colores9: #c7d1e1;
             "explicacion"
             "nota1"
             "nota2"
-            "nota3";
+            "nota3"
+            "nota4"
+            "nota5"
+            "nota6";
         grid-area: mainIdeas;
 
         .explicacionPagina {
@@ -35,7 +38,7 @@ $colores9: #c7d1e1;
                 text-align: center;
             }
         }
-        @for $i from 1 through 3{
+        @for $i from 1 through 7{
             .nota#{$i}{
                 display: flex;
                 flex-flow: column wrap;

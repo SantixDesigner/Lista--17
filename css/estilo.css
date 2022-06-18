@@ -613,7 +613,7 @@ body {
   grid-template-areas: "header header header" "nav nav nav" "mainIdeas mainIdeas mainIdeas" "footer footer footer"; }
   .bodyIdeas .unicaSectionIdeas {
     display: grid;
-    grid-template-areas: "explicacion" "nota1" "nota2" "nota3";
+    grid-template-areas: "explicacion" "nota1" "nota2" "nota3" "nota4" "nota5" "nota6";
     grid-area: mainIdeas; }
     .bodyIdeas .unicaSectionIdeas .explicacionPagina {
       display: flex;
@@ -687,6 +687,86 @@ body {
         border-bottom: 0.2px solid black;
         text-align: center; }
       .bodyIdeas .unicaSectionIdeas .nota3 img {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px; }
+    .bodyIdeas .unicaSectionIdeas .nota4 {
+      display: flex;
+      flex-flow: column wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota4;
+      padding-bottom: 5px;
+      z-index: 0; }
+      .bodyIdeas .unicaSectionIdeas .nota4 h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota4 img {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px; }
+    .bodyIdeas .unicaSectionIdeas .nota5 {
+      display: flex;
+      flex-flow: column wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota5;
+      padding-bottom: 5px;
+      z-index: 0; }
+      .bodyIdeas .unicaSectionIdeas .nota5 h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota5 img {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px; }
+    .bodyIdeas .unicaSectionIdeas .nota6 {
+      display: flex;
+      flex-flow: column wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota6;
+      padding-bottom: 5px;
+      z-index: 0; }
+      .bodyIdeas .unicaSectionIdeas .nota6 h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota6 img {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px; }
+    .bodyIdeas .unicaSectionIdeas .nota7 {
+      display: flex;
+      flex-flow: column wrap;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 100px;
+      background-color: #c7d1e1;
+      border: .2px solid black;
+      font-weight: bold;
+      grid-area: nota7;
+      padding-bottom: 5px;
+      z-index: 0; }
+      .bodyIdeas .unicaSectionIdeas .nota7 h2 {
+        background-color: #22f1ee;
+        border-bottom: 0.2px solid black;
+        text-align: center; }
+      .bodyIdeas .unicaSectionIdeas .nota7 img {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
