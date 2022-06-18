@@ -650,6 +650,9 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+      .bodyIdeas .unicaSectionIdeas .nota1 video {
+        width: 90%;
+        margin: auto; }
     .bodyIdeas .unicaSectionIdeas .nota2 {
       display: flex;
       flex-flow: column wrap;
@@ -670,6 +673,9 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+      .bodyIdeas .unicaSectionIdeas .nota2 video {
+        width: 90%;
+        margin: auto; }
     .bodyIdeas .unicaSectionIdeas .nota3 {
       display: flex;
       flex-flow: column wrap;
@@ -690,6 +696,9 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+      .bodyIdeas .unicaSectionIdeas .nota3 video {
+        width: 90%;
+        margin: auto; }
     .bodyIdeas .unicaSectionIdeas .nota4 {
       display: flex;
       flex-flow: column wrap;
@@ -710,6 +719,9 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+      .bodyIdeas .unicaSectionIdeas .nota4 video {
+        width: 90%;
+        margin: auto; }
     .bodyIdeas .unicaSectionIdeas .nota5 {
       display: flex;
       flex-flow: column wrap;
@@ -730,6 +742,9 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+      .bodyIdeas .unicaSectionIdeas .nota5 video {
+        width: 90%;
+        margin: auto; }
     .bodyIdeas .unicaSectionIdeas .nota6 {
       display: flex;
       flex-flow: column wrap;
@@ -750,6 +765,9 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+      .bodyIdeas .unicaSectionIdeas .nota6 video {
+        width: 90%;
+        margin: auto; }
     .bodyIdeas .unicaSectionIdeas .nota7 {
       display: flex;
       flex-flow: column wrap;
@@ -770,6 +788,9 @@ body {
         width: 95%;
         margin: auto;
         margin-bottom: 10px; }
+      .bodyIdeas .unicaSectionIdeas .nota7 video {
+        width: 90%;
+        margin: auto; }
 
 /* Contactos */
 .formulario {
@@ -940,7 +961,7 @@ body {
   .bodyIdeas {
     grid-template-areas: "header" "nav" "mainIdeas" "footer"; }
     .bodyIdeas .unicaSectionIdeas {
-      grid-template-areas: "explicacion" "nota1" "nota2" "nota3"; }
+      grid-template-areas: "explicacion" "nota1" "nota2" "nota3" "nota4" "nota5" "nota6"; }
       .bodyIdeas .unicaSectionIdeas .explicacionPagina {
         width: 90%; }
       .bodyIdeas .unicaSectionIdeas .nota1 {
@@ -948,6 +969,10 @@ body {
       .bodyIdeas .unicaSectionIdeas .nota2 {
         width: 90%; }
       .bodyIdeas .unicaSectionIdeas .nota3 {
+        width: 90%; }
+      .bodyIdeas .unicaSectionIdeas .nota4 {
+        width: 90%; }
+      .bodyIdeas .unicaSectionIdeas .nota5 {
         width: 90%; } }
 
 @media (min-width: 801px) and (max-width: 1200px) {
@@ -958,6 +983,10 @@ body {
   .bodyIdeas .unicaSectionIdeas .nota2 {
     width: 70%; }
   .bodyIdeas .unicaSectionIdeas .nota3 {
+    width: 70%; }
+  .bodyIdeas .unicaSectionIdeas .nota4 {
+    width: 70%; }
+  .bodyIdeas .unicaSectionIdeas .nota5 {
     width: 70%; } }
 
 @media (min-width: 1201px) and (max-width: 1600px) {
