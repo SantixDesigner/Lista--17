@@ -29,8 +29,11 @@ $rosa: #af5a91;
                     }
                 }
                 width: 50%;
-                margin: auto;
+                margin-top: 5px;
+                margin-left: auto;
+                margin-right: auto;
                 font-weight: bold;
+                text-align: center;
                 grid-area: seccion#{$value2};
                 @if($value2 == 2){
                     background-color: $rosa;

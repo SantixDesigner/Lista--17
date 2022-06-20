@@ -56,6 +56,9 @@ $color3: #ff8800;
                     background-color: $color2;
                 }
             }
+            .sectionProyectosOl1{
+                margin-top: 5px;
+            }
         }
     }
 }
@@ -67,6 +70,8 @@ $azulado2: #709976;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+ 
+    margin-bottom: 5px;
     div {
         display: flex;
         flex-direction: column;

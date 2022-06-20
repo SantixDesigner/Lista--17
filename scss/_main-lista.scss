@@ -56,13 +56,14 @@ $colores8: #bdb1a2;
     }
 
     .sectionListaAbajo {
+
         display: flex;
         flex-direction: column;
         width: 25%;
         text-align: center;
         grid-area: seccionAbajo;
         margin: auto;
-
+        margin-top: 5px;
         p {
             border-right: .2px solid black;
             background-color: $colores4;
@@ -82,13 +83,9 @@ $colores8: #bdb1a2;
         width: 25%;
         grid-area: ultimaSeccion;
         margin: auto;
-
+        margin-bottom: 5px;
         h2 {
             margin: auto;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
         }
     }
 }

@@ -25,6 +25,7 @@ $propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:
             overflow: map-get($map: $propiedad, $key:overflow);
             font-size: map-get($map: $propiedad, $key:fs );
             background-color: map-get($map: $propiedad, $key: bc);
+            margin-top: 5px;
             h2 {
                 @include h2(20px,100%,center,underline overline,2.5px,30px);
             }
