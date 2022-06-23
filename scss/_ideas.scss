@@ -38,7 +38,7 @@ $colores9: #c7d1e1;
                 text-align: center;
             }
         }
-        @for $i from 1 through 7{
+        @for $i from 1 through 999{
             .nota#{$i}{
                 display: flex;
                 flex-flow: column wrap;

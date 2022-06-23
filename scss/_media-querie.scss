@@ -195,21 +195,10 @@
             .explicacionPagina {
                 width: 90%;
             }
-
-            .nota1 {
-                width: 90%;
-            }
-            .nota2 {
-                width: 90%;
-            }
-            .nota3{
-                width: 90%;
-            }
-            .nota4 {
-                width: 90%;
-            }
-            .nota5{
-                width: 90%;
+            @for $i from 1 through 999{
+                .nota#{$i}{
+                    width: 90%;
+                }
             }
         }
     }
@@ -219,24 +208,12 @@
 @media(min-width:801px) and (max-width:1200px) {
     .bodyIdeas {
         .unicaSectionIdeas {
+            @for $i from 1 through 999{
+                .nota#{$i}{
+                    width: 70%;
+                }
+            }
             .explicacionPagina {
-                width: 70%;
-            }
-
-            .nota1 {
-                width: 70%;
-            }
-
-            .nota2 {
-                width: 70%;
-            }
-            .nota3{
-                width: 70%;
-            }
-            .nota4{
-                width: 70%;
-            }
-            .nota5{
                 width: 70%;
             }
         }
@@ -249,20 +226,13 @@
             .explicacionPagina {
                 width: 50%;
             }
-
-            .nota1 {
-                width: 50%;
-            }
-
-            .nota2 {
-                width: 50%;
-            }
-            .nota3{
-                width: 50%;
+            @for $i from 1 through 999{
+                .nota#{$i}{
+                    width: 50%;
+                }
             }
         }
     }
-
 }
 
 /* props al header a todos */
