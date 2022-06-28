@@ -4,7 +4,7 @@ $amarillo1: #b9aa04;
 $naranja3: #844900;
 $colorextranio: rgb(0, 161, 54);
 
-$propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:2px, ancho:20%, ml:42.5%, alto:50px, ga:titulo, br:20px, overflow:hidden, fs:14px, bc:$naranja1);
+$propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:2px, ancho:20%, ml:42.5%, alto:50px, ga:titulo, br:20px, overflow:hidden, fs:14px, bc:$azul);
 .mainInicial {
     grid-area: main;
 
@@ -38,7 +38,7 @@ $propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:
             text-align: center;
 
             .listaSuperior {
-                @include secciones($naranja2,lista--superior,20px,100%,auto);
+                @include secciones($amarillo,lista--superior,20px,100%,auto);
                 
                 h2 {
                     @include h2-secciones(2px solid black,3px,18px,20px,2px);
@@ -49,7 +49,7 @@ $propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:
                 }
 
                 .ulPrimeraSeccion {
-                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$amarillo1,20px);
+                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$azul,20px);
                     .listItemsSeccion {
                         @include listItem(none,5px,18px,bolder);
                     }
@@ -57,14 +57,14 @@ $propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:
             }
 
             .listaInferior {
-                @include secciones($naranja2,lista--inferior,20px,100%,auto);
+                @include secciones($amarillo,lista--inferior,20px,100%,auto);
                 h2 {
                     @include h2-secciones(2px solid black,3px,18px,20px,2px);
                     @include gradiantes((45deg, rgb(0, 132, 255) 0%, rgb(255, 0, 200) 100%), text, transparent);
                 }
 
                 .ulSegundaSeccion {
-                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$amarillo1,20px);
+                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$azul,20px);
                     .listItemsSeccion {
                         @include listItem(none,5px,18px,bolder);
                     }
@@ -75,13 +75,13 @@ $propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:
             }
 
             .consejeros {
-                @include secciones($naranja2,consejeros,20px,100%,auto);
+                @include secciones($amarillo,consejeros,20px,100%,auto);
                 h2 {
                     @include h2-secciones(2px solid black,3px,18px,20px,2px);
                     @include gradiantes((45deg, rgb(0, 132, 255) 0%, rgb(255, 0, 200) 100%), text, transparent);
                 }
                 .consejerosLista {
-                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$amarillo1,20px);
+                    @include ul-class(flex,column,2px,2px solid rgb(18,0,0),$azul,20px);
 
 
                     .listItemsSeccion {
@@ -101,14 +101,14 @@ $propiedad: (display:flex,js:center,pt:10px,border:2px solid $border, borderspa:
                 display: flex;
                 flex-flow: column nowrap;
                 border: 2px solid black;
-                background-color: $naranja1;
+                background-color: $amarillo;
                 width: 43%;
                 justify-content: center;
                 grid-area: consignas;
                 .olPrimeraSeccion {
                     display: flex;
                     flex-direction: column;
-                    background-color: $amarillo1;
+                    background-color: $azul;
                     border-top: 1px solid black;
                     .listItemsSeccionDos {
                         list-style: none;

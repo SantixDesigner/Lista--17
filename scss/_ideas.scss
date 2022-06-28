@@ -24,7 +24,7 @@ $colores9: #c7d1e1;
         .explicacionPagina {
             display: flex;
             flex-flow: column wrap;
-            background-color: $colores7;
+            background-color: $azul;
             width: 25%;
             margin: auto;
             margin-bottom: 100px;
@@ -45,14 +45,14 @@ $colores9: #c7d1e1;
                 width: 25%;
                 margin: auto;
                 margin-bottom: 100px;
-                background-color: $colores9;
+                background-color: $azul;
                 border: .2px solid black;
                 font-weight: bold;
                 grid-area: nota#{$i};
                 padding-bottom: 5px;
                 z-index: 0;
                     h2 {
-                    background-color: $colores3;
+                    background-color: $amarillo;
                     border-bottom: 0.2px solid black;
                     text-align: center;
                     }

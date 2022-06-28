@@ -22,7 +22,7 @@ $color3: #ff8800;
             .sectionProyectosOl#{$value}{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 width: 80%;
-                background-color: $color3;
+                background-color: $azul;
                 border: 2px solid $azulado1;
                 max-width: 500px;
                 grid-area: ol#{$value};
@@ -47,10 +47,11 @@ $color3: #ff8800;
                 }
     
                 .h2Section {
-                    background-color: $color1;
+                    background-color: $amarillo;
                 }
                 h3{
-                    background-color: $color2;
+                    background-color: $blanco;
+                    border-top: .1px solid black;
                 }
                 h4{
                     background-color: $color2;
@@ -75,10 +76,10 @@ $azulado2: #709976;
     div {
         display: flex;
         flex-direction: column;
-        background-color: $verde3;
+        background-color: $azul;
         max-width: 230px;
         h3 {
-            background-color: $azulado2;
+            background-color: $amarillo;
             margin-bottom: 3px;
         }
         img {
