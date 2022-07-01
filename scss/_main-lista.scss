@@ -43,12 +43,12 @@ $colores8: #bdb1a2;
             .miembrosLista {
                 list-style: none;
                 text-align: center;
-                background-color: $azul;
+                background-color: $colores2;
                 font-weight: bold;
             }
 
             #miembroPresidente {
-                background-color: $amarillo;
+                background-color: $colores3;
                 border-bottom: .5px solid black;
                 border-top: .5px solid black;
             }
@@ -66,20 +66,20 @@ $colores8: #bdb1a2;
         margin-top: 5px;
         p {
             border-right: .2px solid black;
-            background-color: $blanco;
-            color: black;
+            background-color: $colores4;
+            color: $colores8;
         }
 
         h2 {
             border: .5px solid black;
-            background-color: $azul;
+            background-color: $colores5;
         }
     }
 
     .ultimaSeccionLista {
         display: flex;
         flex-direction: column;
-        background-color: $amarillo;
+        background-color: $colores6;
         width: 25%;
         grid-area: ultimaSeccion;
         margin: auto;

@@ -1,4 +1,4 @@
-$colores:(navSubClass:$azul, div1nav: $azul);
+$colores:(navSubClass:#f0c1dd, div1nav: #f0c1dd);
 
 @each $red,$color in $colores{
     .#{$red}{
@@ -19,7 +19,7 @@ $colores:(navSubClass:$azul, div1nav: $azul);
             margin-left: 100%;
             li {
                 a{
-                    color:$blanco;
+                    color:#0a5ea3;
                     font-weight: bold;
                     background-image: radial-gradient(currentColor, currentColor);
                     background-position: 50% 100%;

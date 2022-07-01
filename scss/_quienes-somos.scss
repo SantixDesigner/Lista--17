@@ -21,9 +21,9 @@ $rosa: #af5a91;
         @for $value2 from 1 through 2{
             .sectionDiv#{$value2}{
                 @if ($value2 == 1){
-                    background-color: $amarillo;
+                    background-color: $amarillo1;
                     h2{
-                        background-color: $azul;
+                        background-color: $rosa;
                         color: black;
                         text-align: center;
                     }
@@ -36,9 +36,9 @@ $rosa: #af5a91;
                 text-align: center;
                 grid-area: seccion#{$value2};
                 @if($value2 == 2){
-                    background-color: $azul;
+                    background-color: $rosa;
                     h3 {
-                        background-color: $amarillo;
+                        background-color: $amarillo1;
                         color: black;
                         text-align: center;
                     }
@@ -51,7 +51,7 @@ $rosa: #af5a91;
 $rosa2: #f872c2;
 
 .asideDelQS {
-    background-color: $blanco;
+    background-color: $rosa2;
     width: 400px;
     margin: auto;
     text-align: center;
@@ -59,7 +59,7 @@ $rosa2: #f872c2;
     margin-bottom: 5px;
     display: flex;
     grid-area: asideQS;
-    padding-bottom: 10px;
+
     div {
         display: flex;
         flex-direction: column;
